@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+## :rocket: dtmoney - React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+   <img src="https://s10.gifyu.com/images/ezgif.com-gif-maker8879302cf2cf2976.gif" width="800px">
+</div>
 
-## Available Scripts
+## :computer: Tecnologias
+Este projeto utiliza as seguintes tecnologias:
 
-In the project directory, you can run:
+* [ReactJS](https://reactjs.org/)
+* [Typescript](https://www.typescriptlang.org/)
+* [Styled Components](https://www.styled-components.com/)
+* [Polished](https://polished.js.org/)
+* [React Modal](https://github.com/reactjs/react-modal)
+* [MirageJS](https://miragejs.com/)
+* [Axios](https://github.com/axios/axios)
 
-### `yarn start`
+## Sobre o MirageJs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Mirage JS é uma biblioteca que permite simular, construir, testar e partilhar uma API para uma aplicação JavaScript/Typescript. No Mirage é possivel criar um servidor, um banco de dados, seeds para o banco de dados e até mesmo testes de UI. Neste módulo o mirage foi utilizado para simular uma api que armazena e retorna as transações do usuário.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Habilidades desenvolvidas
 
-### `yarn test`
+- Styled-Components
+- useContext
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como rodar o projeto
+```bash
+# Clone o projeto
+$ git clone https://github.com/augustodevjs/dtmoney
 
-### `yarn build`
+# Instale todas as depedências
+$ yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Rode o projeto
+$ yarn start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# O servidor vai ser inicializado no <http://localhost:8080/>
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# License
+© Projeto realizado pela [Rocketseat](https://www.linkedin.com/school/rocketseat/) e feito por [João Augusto](https://www.linkedin.com/in/joaoaugustodevjs/) 🤝
