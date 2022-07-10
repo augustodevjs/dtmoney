@@ -19,3 +19,12 @@ export interface TransactionsContextData {
   transactions: TransactionProps[];
   createTransaction: (transaction: TransactionInput) => Promise<void>;
 }
+
+export interface HeaderProps {
+  onOpenNewTransactionModal: () => void;
+}
+
+export interface NewTransactionModalProps {
+  isOpen: boolean;
+  onRequestClose: () => void;
+}
