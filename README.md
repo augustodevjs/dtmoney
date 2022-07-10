@@ -22,7 +22,8 @@ Mirage JS é uma biblioteca que permite simular, construir, testar e partilhar u
 ## Habilidades desenvolvidas
 
 - Styled-Components
-- useContext
+- UseContext
+- Hooks
 
 ## Como rodar o projeto
 ```bash
