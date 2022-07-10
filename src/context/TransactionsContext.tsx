@@ -1,25 +1,6 @@
-import { createContext, ReactNode, useEffect, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 import { api } from '../services/api';
-
-interface TransactionProps {
-  id: number;
-  title: string;
-  amount: number;
-  type: string;
-  category: string;
-  createdAt: string;
-}
-
-type TransactionInput = Omit<TransactionProps, 'id' | 'createdAt'>;
-
-interface TransactionsProviderProps {
-  children: ReactNode;
-}
-
-interface TransactionsContextData {
-  transactions: TransactionProps[];
-  createTransaction: (transaction: TransactionInput) => Promise<void>;
-}
+import { TransactionInput, TransactionProps, TransactionsContextData, TransactionsProviderProps } from '../shared/interfaces';
 
 export const TransactionsContext = createContext<TransactionsContextData>({ } as TransactionsContextData);
 
