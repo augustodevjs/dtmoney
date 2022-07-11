@@ -16,7 +16,7 @@ createServer({
           title: 'Freelance de website',
           type: 'deposit',
           category: 'dev',
-          amount: 20000,
+          amount: 2000,
           createdAt: new Date('2022-02-03 12:00:00')
         },
         {
@@ -30,7 +30,7 @@ createServer({
       ]
     })
   },
-  
+
   routes() {
     this.namespace = 'api';
 
