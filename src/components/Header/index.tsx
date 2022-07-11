@@ -1,6 +1,9 @@
 import logoImg from '../../assets/logo.svg';
-import { HeaderProps } from '../../shared/interfaces';
 import { Container, Content } from './styles';
+
+export interface HeaderProps {
+  onOpenNewTransactionModal: () => void;
+}
 
 export function Header({ onOpenNewTransactionModal }: HeaderProps) {
   return (

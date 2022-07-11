@@ -8,7 +8,11 @@ import outcomeSvg from '../../assets/outcome.svg';
 
 import { Container, TransactionTypeContainer, RadioBox } from "./style";
 import { useTransactions } from "../../hooks/useTransactions";
-import { NewTransactionModalProps } from "../../shared/interfaces";
+
+export interface NewTransactionModalProps {
+  isOpen: boolean;
+  onRequestClose: () => void;
+}
 
 export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionModalProps) {
   const { createTransaction } = useTransactions();
@@ -22,7 +26,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
     event.preventDefault();
 
     await createTransaction({
-      title, 
+      title,
       amount,
       category,
       type
